@@ -1,0 +1,21 @@
+things:
+  # tp服务地址http|https开头
+  remote: http://water.thingspanel.cn
+  # 插件服务http监听地址如0.0.0.0:9090
+  local: 0.0.0.0:9090
+  # tp服务的mqtt
+  mqtt:
+    # mqtt服务器地址
+    broker: 47.92.253.145:11883
+    # mqtt服务器用户名
+    username: root
+    # mqtt服务器密码
+    password: root
+  device:
+    # 设备数据超时时间, 超时后判为离线, 单位（分钟）
+    timeout: 1
+logs:
+  # 是否开始调试日志
+  debug: true
+  # 日志文件保存位置
+  file: ./logs/log.txt

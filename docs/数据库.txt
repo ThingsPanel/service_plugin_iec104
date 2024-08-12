@@ -1,0 +1,18 @@
+水位 Z
+河道水情表 ST_RIVER_R
+
+当前降水量 PJ
+5分钟时段降水量 PN05
+降水量统计表 ST_PSTAT_R
+实时信息类表 ST_PPTN_R
+
+
+流速 VA
+河道水情表表结构 ST_RIVER_R
+
+水温 C
+气温水温表 ST_TMP_R
+
+
+测站基本属性表 ST_STBPRP_B
+测站名称
